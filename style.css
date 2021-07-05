@@ -52,3 +52,18 @@ p{
     padding-right: 5%;
     margin-bottom: 20%;
 }
+.recipies{
+    margin-top: 10%;
+}
+.recipies-text{
+    margin-left: 367px;
+    margin-right: 367px;
+}
+.recipies-text h2{
+    font-weight: bold;
+    color: #575757;
+    text-align: center;
+}
+.recipies-text p{
+    text-align: center;
+}
