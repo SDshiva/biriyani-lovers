@@ -117,3 +117,19 @@ p{
 .size{
     margin-right: 10%;
 }
+.foot-sec span{
+    color: rgba(255, 166, 0, 0.897);
+}
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 3em;
+}
+footer h2{
+    color: #575757;
+}
+#creadit{
+    font-size: 10px;
+    color: white;
+    margin-top: 5%;
+}
