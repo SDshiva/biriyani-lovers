@@ -7,6 +7,10 @@ body{
 h1{
     font-size: 45px;
     font-weight: 700;
+    color: #575757;
+}
+p{
+    color: #828282;
 }
 .set-width span{
     color: rgba(255, 166, 0, 0.897);}
@@ -31,4 +35,10 @@ h1{
     background-color: #FFA755;
     padding: 10px 25px;
     border-radius: 60px;
+}
+.about-sec{
+    display: flex;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    margin-top: 10%;
 }
