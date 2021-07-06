@@ -12,21 +12,12 @@ body{
 }
 .menu-sec ul{
     list-style-type: none;
-    border: 1px solid black;
     padding: 0px;
 }
 .menu-sec li{
     display: inline;
     margin-right: 10px;
 }
-/*.menu-sec a{
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-    background-color: #FFA755;
-    padding: 10px 25px;
-    border-radius: 60px;
-}*/
 .para-img{
     display: flex;
 }
@@ -39,7 +30,17 @@ button{
     width: 70px;
     height: 35px;
     text-align: center;
+    color: #FFA755;
+    font-weight: 700;
+    background-color: white;
+    border: none;
     border-radius: 50%;
+    cursor: pointer;
+    transition: 0.6ms;
+}
+.transec:hover{
+    color: white;
+    background-color: #FFA755 ;
 }
 .set-width label{
     padding-left: 40%;
@@ -58,7 +59,6 @@ p{
     width: 50%;
     padding-left: 8%;
     margin-top: 2%;
-    border: 1px solid black;
 }
 .set-width img{
     width: 546px;
@@ -77,6 +77,11 @@ p{
     background-color: #FFA755;
     padding: 10px 25px;
     border-radius: 60px;
+    transition: 0.6ms;
+}
+.set-width a:hover{
+    color: #FFA755;
+    background-color: white;
 }
 .about-sec{
     display: flex;
